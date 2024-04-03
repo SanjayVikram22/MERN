@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <style>
+      table {
+        border: 2px solid;
+        background-color: bisque;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .container {
+        height: 100px;
+        width: 100px;
+        align-items: center;
+      }
+      button {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(42, 165, 69);
+        font-size: 30px;
+        border-radius: 10px;
+        padding: 5px;
+        color: aliceblue;
+      }
+      .res {
+        font-size: 60px;
+        font-weight: bold;
+        background-color: rgb(42, 165, 69);
+        border-radius: 10px;
+        color: aliceblue;
+        border-color: rgb(15, 15, 15);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center;">CALCULATOR</h1>
+    <br>
+    <center>
+      <table name="tab" class="container">
+        <tr>
+          <td colspan="3" class="res" id="r"></td>
+          <td onclick="cl();"><button>c</button></td>
+        </tr>
+        <tr>
+          <td onclick="cal('1');"><button>1</button></td>
+          <td onclick="cal('2');"><button>2</button></td>
+          <td onclick="cal('3');"><button>3</button></td>
+          <td onclick="cal('/');"><button>/</button></td>
+        </tr>
+        <tr>
+          <td onclick="cal('4');"><button>4</button></td>
+          <td onclick="cal('5');"><button>5</button></td>
+          <td onclick="cal('6');"><button>6</button></td>
+          <td onclick="cal('*');"><button>*</button></td>
+        </tr>
+        <tr>
+          <td onclick="cal('7');"><button>7</button></td>
+          <td onclick="cal('8');"><button>8</button></td>
+          <td onclick="cal('9');"><button>9</button></td>
+          <td onclick="cal('+');"><button>+</button></td>
+        </tr>
+        <tr>
+          <td onclick="cal('.');"><button>.</button></td>
+          <td onclick="cal('0');"><button>0</button></td>
+          <td><button onclick="equal();">=</button></td>
+          <td onclick="cal('-');"><button>-</button></td>
+        </tr>
+      </table>
+    </center>
+    <script>
+      let result = "";
+      function cal(val) {
+        result += val;
+        document.querySelector(".res").innerHTML = result;
+        console.log(result);
+      }
+      function equal() {
+        document.querySelector(".res").innerHTML = eval(result);
+      }
+      function cl() {
+        result = "";
+        document.querySelector(".res").innerHTML = result;
+      }
+    </script>
+  </body>
+</html>
