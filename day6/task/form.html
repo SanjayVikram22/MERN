@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <form>
+        <label for="fname">Name:</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Enter your Name"
+        /><br />
+        <label for="fage">Age:</label><br />
+        <input
+          type="text"
+          id="fage"
+          name="fage"
+          placeholder="Enter your Age"
+        /><br />
+        <label for="fno">Number:</label><br />
+        <input
+          type="text"
+          id="fno"
+          name="fno"
+          placeholder="Enter your Mobile Number"
+        /><br />
+        <label for="fgen">Gender:</label><br />
+        <input
+          type="text"
+          id="fgen"
+          name="fgen"
+          placeholder="Enter your Gender"
+        /><br />
+        <div class="pg">
+          <button onclick="myFunction()">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      function myFunction() {
+        var name = document.getElementById("fname").value;
+        var age = document.getElementById("fage").value;
+        var no = document.getElementById("fno").value;
+        var gen = document.getElementById("fgen").value;
+        alert(name + "  " + age + " " + no + "  " + gen);
+      }
+    </script>
+  </body>
+</html>

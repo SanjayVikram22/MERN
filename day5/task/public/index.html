@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container">
+      <nav>
+        <div>
+          <img src="./rsz_head1.webp" />
+        </div>
+        <div>
+          <img src="./nbaf.webp" />
+        </div>
+        <div class="ico">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </nav>
+      <div class="ana">
+        <p>Home</p>
+        <div class="dropdown">
+          <button
+            onmouseover="showDropdown()"
+            onmouseout="hideDropdown()"
+            class="dropbtn"
+          >
+            About Us
+          </button>
+          <i class="fa-solid fa-caret-down"></i>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Vision & Mission</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <p>Department</p>
+        <p>Academic</p>
+        <p>Admission</p>
+        <p>Placement</p>
+        <p>Library</p>
+        <p>Alumni</p>
+        <p>Campus</p>
+      </div>
+    </div>
+
+    <!-- nav end -->
+
+    <!-- carousel -->
+    <div class="carousel">
+      <div class="carousel-inner">
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-1"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+          checked="checked"
+        />
+        <div class="carousel-item">
+          <img src="./ESEC_NIRF_Ranking_Banner_2023.webp" />
+        </div>
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-2"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+        />
+        <div class="carousel-item">
+          <img src="./ESEC_Principal_Award_2022.webp" />
+        </div>
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-3"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+        />
+        <div class="carousel-item">
+          <img src="./DQ-CMR-2022.webp" />
+        </div>
+        <label for="carousel-3" class="carousel-control prev control-1"
+          >‹</label
+        >
+        <label for="carousel-2" class="carousel-control next control-1"
+          >›</label
+        >
+        <label for="carousel-1" class="carousel-control prev control-2"
+          >‹</label
+        >
+        <label for="carousel-3" class="carousel-control next control-2"
+          >›</label
+        >
+        <label for="carousel-2" class="carousel-control prev control-3"
+          >‹</label
+        >
+        <label for="carousel-1" class="carousel-control next control-3"
+          >›</label
+        >
+        <ol class="carousel-indicators">
+          <li>
+            <label for="carousel-1" class="carousel-bullet">•</label>
+          </li>
+          <li>
+            <label for="carousel-2" class="carousel-bullet">•</label>
+          </li>
+          <li>
+            <label for="carousel-3" class="carousel-bullet">•</label>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <!-- carousel end -->
+
+    <!-- list -->
+    <div class="grid-container">
+      <div class="">
+        <div class="tecol">
+          <h1>125</h1>
+        </div>
+        <div class="focol">
+          <h1>No. of Company visited for Placement</h1>
+        </div>
+      </div>
+      <div class="">
+        <div class="tecol1">
+          <h1>85</h1>
+        </div>
+        <div class="focol">
+          <h1>No. of Ph.Ds</h1>
+        </div>
+      </div>
+      <div class="">
+        <div class="tecol2">
+          <h1>42</h1>
+        </div>
+        <div class="focol">
+          <h1>No. of MoUs</h1>
+        </div>
+      </div>
+      <div class="">
+        <div class="tecol3">
+          <h1>500</h1>
+        </div>
+        <div class="focol">
+          <h1>Funds Received(in lakhs)</h1>
+        </div>
+      </div>
+    </div>
+    <!-- list end -->
+
+    <!-- Gallery -->
+    <br />
+    <div class="tex">
+      <h1>Gallery</h1>
+    </div>
+    <div class="grid-container">
+      <div class="oc">
+        <img src="./1.webp" />
+      </div>
+      <div class="oc">
+        <img src="./2.webp" />
+      </div>
+      <div class="oc">
+        <img src="./3.webp" />
+      </div>
+      <div class="oc">
+        <img src="./4.webp" />
+      </div>
+      <div class="oc">
+        <img src="./5.webp" />
+      </div>
+      <div class="oc">
+        <img src="./6.webp" />
+      </div>
+      <div class="oc">
+        <img src="./7.webp" />
+      </div>
+      <div class="oc">
+        <img src="./8.webp" />
+      </div>
+    </div>
+    <!-- Gallery end -->
+
+    <h1 style="text-align: center">CONTACT INFO PAGE</h1>
+
+    <center>
+      <button class="btn" onclick="window.location.href='contact.html'">
+        Click
+      </button>
+    </center>
+
+    <br />
+    <br />
+
+    <footer>
+      <div class="container-foot">
+        <div class="aic">
+          <ul>
+            <li>AICTE Approval</li>
+            <li>AICTE Mandatory Disclosure</li>
+            <li>Anna University Affiliation Orders</li>
+            <li>Entrepreneur Development Cell</li>
+            <li>ESEC campus video</li>
+            <li>Cisco Local Academy</li>
+            <li>FM Radio</li>
+            <li>MoUs</li>
+            <li>Anti Ragging Squad</li>
+            <li>Funding Received</li>
+            <li>Alumni</li>
+            <li>CoE</li>
+            <li>Career@ESEC</li>
+          </ul>
+          <div>
+            <h1>Contact Us</h1>
+            <h3>Official mail Id : contact@esec.ac.in</h3>
+            <h3>Principal Mail Id : esecprincipal@gmail.com</h3>
+            <h3>Contact No. : 04294232701,702,703</h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/b2d405b984.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

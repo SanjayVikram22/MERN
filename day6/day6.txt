@@ -1,0 +1,15 @@
+onclick
+function call
+alert 
+// comment line
+/* */
+<!-- --> alt+shift+a
+document.write
+relationship operator
+logical operator
+var let const
+console.log()
+clt+k clt+c (for commenting)
+?:
+
+

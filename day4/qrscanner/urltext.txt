@@ -1,0 +1,1 @@
+https://www.educative.io/answers/how-to-serve-a-static-html-file-in-nodejs
