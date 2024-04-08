@@ -1,0 +1,9 @@
+page routing using express
+
+ejs
+
+task:
+
+try ejs 
+try to use static packages in express
+try to build a resume and host in express,node js server
