@@ -1,0 +1,2 @@
+call random jokes api and console the data
+try to use usestate() hook to change the country based on dropdown list in a paragraph tag
