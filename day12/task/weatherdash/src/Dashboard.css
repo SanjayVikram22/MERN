@@ -1,0 +1,12 @@
+.searchCityText {
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.we{
+    border-radius: 15px;
+    background-color:azure;
+    color: black;
+    padding: 50px;
+}
