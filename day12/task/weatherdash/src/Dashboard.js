@@ -33,7 +33,7 @@ function Dashboard() {
   };
 
   return (
-    <>
+    <div className="we">
       <h1>Weather Dashboard</h1>
       <br />
       <br />
@@ -71,7 +71,7 @@ function Dashboard() {
           
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
